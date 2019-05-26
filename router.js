@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const config = require('./config/route-config')
+
 const path = require('path')
 const glob = require('glob')
 const fs = require('fs')
@@ -8,6 +8,9 @@ const fs = require('fs')
 const src = path.resolve(process.cwd(), 'src')
 const pagedir = path.resolve(src, 'pages')
 const target = path.resolve(src, '.umi')
+
+const configPath = path.resolve(src, '../config/route-config')
+const config = require(configPath)
 
 /** 将Windows环境下路径中的分隔符转为/ */
 function slash(path) {
