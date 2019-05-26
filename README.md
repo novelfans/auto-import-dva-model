@@ -13,6 +13,14 @@ npm install --save-dev auto-import-dva-model
 #### 目录配置
 
 - 路由配置： src/config/route-config.js
+```
+    {
+        path: '/home',
+        component: './Home' 或者 './Home/页面名.tsx' 诸如此类
+    }
+    其中component的路径是相对于src/pages目录来写的
+```
+    
 - 全局 model：src/models/\*_/_.(js|ts)
 - 页面 model：src/pages/\*_/_.(js|ts)
 
