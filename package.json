@@ -1,0 +1,27 @@
+{
+  "name": "auto-import-dva-model",
+  "version": "1.0.0",
+  "description": "自动加载dva model",
+  "main": "index.js",
+  "bin": {
+    "initDva": "./router.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novelfans/auto-import-dva-model.git"
+  },
+  "keywords": [
+    "dva",
+    "import",
+    "model"
+  ],
+  "author": "lwt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novelfans/auto-import-dva-model/issues"
+  },
+  "homepage": "https://github.com/novelfans/auto-import-dva-model#readme"
+}
