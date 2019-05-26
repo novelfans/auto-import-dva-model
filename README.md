@@ -2,7 +2,7 @@
 
 #### 自动加载 dva model
 
-仿[mijs](https://umijs.org/guide/with-dva.html#usage)的 dva model 加载规则，适用于用其他脚手架搭建的基于 React 的工程，需要集成 dva 时，自动加载页面级 model 及其全局 model
+仿[umijs](https://umijs.org/guide/with-dva.html#usage)的 dva model 加载规则，适用于用其他脚手架搭建的基于 React 的工程，需要集成 dva 时，自动加载页面级 model 及其全局 model
 
 #### 安装
 
