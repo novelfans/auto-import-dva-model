@@ -26,7 +26,6 @@ npm install --save-dev auto-import-dva-model
         ]
     }
     其中component的路径是相对于src/pages目录来写的
-    暂不支持路径带参数的写法
 ```
 
 - 全局 model：src/models/\*_/_.(js|ts)
