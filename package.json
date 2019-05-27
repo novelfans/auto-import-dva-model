@@ -1,6 +1,6 @@
 {
   "name": "auto-import-dva-model",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "自动加载dva model",
   "main": "index.js",
   "bin": {
